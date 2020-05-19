@@ -49,6 +49,7 @@ div.inner2 {
 	border-left: 3px solid black;
 	border-bottom: 3px solid black;
 	float: right;
+	font-size: 1.25em;
 }
 
 #chicken {
@@ -66,7 +67,7 @@ div.inner2 {
 
 
  
-@media (max-width: 850px) and (min-width: 601px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	div.inner{
 		width: 45%;
 	}
@@ -76,7 +77,7 @@ div.inner2 {
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 	div.inner{
 		width: 92.5%;
 		margin-top: 3%;
